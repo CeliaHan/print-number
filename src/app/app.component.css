@@ -1,3 +1,19 @@
-p {
-  font-family: Lato;
+.backgroud-container {
+  height: 640px;
+  width: 640px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  background-image: url('./../assets/bg.png');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+span {
+  font-size: 16rem;
+  color: white;
+  font-weight: bold;
+  z-index: 2;
 }
